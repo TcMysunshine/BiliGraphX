@@ -71,6 +71,39 @@
       <artifactId>casbah-core_2.11</artifactId>
       <version>3.1.1</version>
     </dependency>
+    <dependency>
+      <groupId>org.graphstream</groupId>
+      <artifactId>gs-core</artifactId>
+      <version>1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.graphstream</groupId>
+      <artifactId>gs-ui</artifactId>
+      <version>1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalanlp</groupId>
+      <artifactId>breeze_2.10</artifactId>
+      <version>0.9</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.scalanlp/breeze-viz -->
+    <dependency>
+      <groupId>org.scalanlp</groupId>
+      <artifactId>breeze-viz_2.11</artifactId>
+      <version>0.9</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.jfree/jcommon -->
+    <dependency>
+      <groupId>org.jfree</groupId>
+      <artifactId>jcommon</artifactId>
+      <version>1.0.24</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.jfree/jfreechart -->
+    <dependency>
+      <groupId>org.jfree</groupId>
+      <artifactId>jfreechart</artifactId>
+      <version>1.0.19</version>
+    </dependency>
   </dependencies>
 
   <build>
