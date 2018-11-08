@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad90ead4-3db2-46f8-860d-a5bc1b1e0811" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/BiliAnalysis.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/BiliAnalysis.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,25 +24,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="scala" value="4" />
+          <entry key="scala" value="9" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Scala" value="4" />
+          <entry key="Scala" value="9" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="3869" />
+          <entry key="scala" value="4813" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="3869" />
+          <entry key="Scala" value="4813" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -55,22 +53,67 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="-1206">
               <caret line="70" column="24" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/BiliAnalysis.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/conUp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="133" column="25" selection-start-line="133" selection-start-column="18" selection-end-line="133" selection-end-column="25" />
+            <state relative-caret-position="228">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+              <folding>
+                <element signature="e#32#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/multiUp.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding>
+                <element signature="e#32#95#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/personalPageRank.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="e#32#95#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/community.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding>
                 <element signature="e#32#110#0" expanded="true" />
-                <element signature="e#3529#4539#0" />
-                <element signature="e#4542#4654#0" />
-                <element signature="e#4657#5862#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/SortByFansAndRank.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding>
+                <element signature="e#31#109#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,8 +135,13 @@
       <find>暴走漫画</find>
       <find>325421</find>
       <find>4056583</find>
-      <find>883968</find>
       <find>26890291</find>
+      <find>540649</find>
+      <find>2370944</find>
+      <find>11073</find>
+      <find>1523194</find>
+      <find>291123997</find>
+      <find>883968</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,6 +153,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/App.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/BiliAnalysis.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/conUp.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/multiUp.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/personalPageRank.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/community.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/SortByFansAndRank.scala" />
       </list>
     </option>
   </component>
@@ -180,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BiliAnalysis">
+  <component name="RunManager" selected="Application.SortByFansAndRank">
     <configuration name="App" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.chenhao.BiliGraphX.App" />
       <module name="BiliGraphX" />
@@ -195,12 +248,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortByFansAndRank" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.chenhao.BiliGraphX.SortByFansAndRank" />
+      <module name="BiliGraphX" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Application.BiliAnalysis" />
+      <item itemvalue="Application.SortByFansAndRank" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortByFansAndRank" />
         <item itemvalue="Application.BiliAnalysis" />
         <item itemvalue="Application.App" />
       </list>
@@ -213,20 +275,20 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1602289" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12947068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3519207" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20446096" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32961586" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.39281288" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -248,22 +310,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="70" column="24" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/BiliAnalysis.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="133" column="25" selection-start-line="133" selection-start-column="18" selection-end-line="133" selection-end-column="25" />
+        <state relative-caret-position="-795">
+          <caret line="190" column="8" lean-forward="true" selection-start-line="178" selection-start-column="4" selection-end-line="190" selection-end-column="8" />
           <folding>
             <element signature="e#32#110#0" expanded="true" />
             <element signature="e#3529#4539#0" />
             <element signature="e#4542#4654#0" />
             <element signature="e#4657#5862#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1206">
+          <caret line="70" column="24" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/conUp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="e#32#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/multiUp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#32#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/personalPageRank.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#32#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/community.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#32#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chenhao/BiliGraphX/SortByFansAndRank.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#31#109#0" expanded="true" />
           </folding>
         </state>
       </provider>
