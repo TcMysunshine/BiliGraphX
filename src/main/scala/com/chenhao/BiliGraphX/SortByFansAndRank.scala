@@ -38,7 +38,6 @@ object SortByFansAndRank {
         edgeArr += tempEdge
       }
     )
-
     //    ------------------------------------------------------------------------------------
     //    init a Graph Start
     val vertexRDD: RDD[(Long, (String, String))] = sc.parallelize(vertexArr)

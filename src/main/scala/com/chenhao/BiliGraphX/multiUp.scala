@@ -8,7 +8,7 @@ import org.apache.spark.graphx.{Edge, Graph}
 import org.apache.spark.rdd.RDD
 
 import scala.collection.mutable.ArrayBuffer
-//多个主播组成的粉丝的分布  存储在topUpFans 数据库中
+//多个up主的粉丝的分布  存储在topUpFans  数据库中
 object multiUp {
   def main(args: Array[String]): Unit = {
     //    屏蔽日志
@@ -54,8 +54,10 @@ object multiUp {
     val subGraph1 = Graph.fromEdges(edgesComu, ("chen", "hao"))
     val ranKColl = db("topKUp")
     val queryRank = MongoDBObject("id" -> upDst)
+    //获取pageRank值
     val rank = ranKColl.findOne(queryRank).get.get("rank")
     println(rank)
+    //插入数据库
     subGraph1.edges.collect.foreach(t => {
       val e = MongoDBObject("Source" -> t.srcId, "Target" -> t.dstId, "Weight" -> rank, "Type" -> "Directed")
       db("topUpFans").insert(e)

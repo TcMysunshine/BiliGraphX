@@ -60,14 +60,15 @@ object community {
     println(cc.filter(x => x._2.size > 1 && x._2.size < 5).count())
     println(cc.filter(x => x._2.size >= 5 && x._2.size < 10).count())
     println(cc.filter(x => x._2.size >= 10).count())
-    println("社区中人数有5-10")
+    println("社区中人数有5-20")
     val showCC = cc.filter(x => x._2.size >= 10 && x._2.size < 20).collect()
     //    showCC.foreach(t=>println(t._1.toString))
     //    val pw = new PrintWriter(new File(filepath + "/comUser1.txt"))
     showCC.foreach(t => {
       val cmId = t._1
-      //      println("------社区ID"+cmId.toString)
+      //社区编号
       ccVertices.collect().filter(n => n._2 == cmId).foreach(m => {
+        //该社区的成员
         val src = m._1
         println(src)
         val q = MongoDBObject("Source" -> src)
@@ -93,7 +94,6 @@ object community {
             db("community").insert(e)
           }
         })
-        //        pw.write(src.toString + "\n")
       })
     })
 

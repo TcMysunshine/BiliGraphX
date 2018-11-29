@@ -51,16 +51,20 @@ object conUp {
     //    ------------------------------------------------------------------------------------
     //画出某一个Up主的粉丝最多的图Start
     //        val upDst = 122879
+
     val upDst = 13934589
     val edgesComu = graph.edges.filter(e => e.dstId == upDst)
     val subGraph1 = Graph.fromEdges(edgesComu, ("chen", "hao"))
     val num: Int = (edgesComu.count() * 0.1).toInt
     val fansOfFile = filepath + "/fansOf" + upDst.toString + ".txt"
     val pw = new PrintWriter(fansOfFile)
+    //Up主的粉丝写到文件
     subGraph1.edges.take(num).foreach(t => {
       pw.write(t.srcId.toString + "\n")
     })
     pw.close()
+
+    //粉丝的信息存储到数据库
     val x = sc.textFile(fansOfFile)
     val fansOfColl = db("fansOf")
     x.collect.foreach(m => {
